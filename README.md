@@ -2,11 +2,11 @@
 
 Team 9:
 
-  Jianxing Lu
+      Jianxing Lu
   
-  Wenjin Cao
+      Wenjin Cao
   
   
 Team Project:
 
-  Face detection
+      Face detection
