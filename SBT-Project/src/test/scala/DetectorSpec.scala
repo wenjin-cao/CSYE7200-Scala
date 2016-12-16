@@ -24,7 +24,7 @@ class DetectorSpec extends FlatSpec with Matchers{
 
   behavior of("EyeDetector.defaultCascadeFile")
 
-  it should "work for Webcam" in {
+  it should "work for Eye Detector" in {
     val imageDimensions = Dimensions(width=640,height=480)
 
     val eyesDetector = EyeDetector.defaultCascadeFile(imageDimensions)
@@ -35,7 +35,7 @@ class DetectorSpec extends FlatSpec with Matchers{
 
   behavior of("Webcam.source")
 
-  it should "work for Eye Detector" in {
+  it should "work for Webcam" in {
     val imageDimensions = Dimensions(width=640,height=480)
 
     implicit val system = ActorSystem()
